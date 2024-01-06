@@ -1,0 +1,5 @@
+html{
+    /* Es como lo que usamos para el jquery peor con html */
+    scroll-behavior: smooth;
+}
+

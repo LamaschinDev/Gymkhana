@@ -1,0 +1,191 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #060606;
+    font-size: 18px; /* 1rem = 10px */
+    font-family: sans-serif;
+}   
+
+a,li{
+    font-family: 'Lato', Sans-Serif;
+    color: #fff;
+}
+header{
+   width: 100%;
+   /*height: 100vh;*/
+   background-size: cover;
+   background-position: center;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 25px;
+    transition: all 0.5s ease;
+}
+.nav.active{
+    background: #060606;
+    padding: 1px;
+}
+.nav img{
+    width: 130px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    margin: 10px;
+    margin-right: 1.5rem;
+}
+
+.menu li a:hover{ /* Recalcado al pasar por encima*/
+    color: #8E44AD;
+}
+
+.menu li:last-child{ /*  colorear el ultimo elemento (cuadro) */
+    background-color: #A569BD;
+    border: 2px solid #8E44AD;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+.menu li:last-child:hover{ /* color de letra del cuadro nav */
+    background: transparent;
+    border: 2px solid #8E44AD;
+}
+
+.scrol{
+    height: 100px;
+}
+
+h4{
+    text-align: center;
+    color: #A6ACAF;
+}
+
+.wallpaper{
+    /*/padding: 200px 50px 200px;*/
+    background-image: url(Images/GYMRAT.jpg);
+    background-repeat: no-repeat; /*No repetir la imagen al largo y ancho*/
+    background-size: cover; /*llena el tamaño de la imagen en la pag*/
+    height: 995px;
+}
+
+.imagenes{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.patro1{
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform .5s;
+}
+.patro1:hover{
+    transform: scale(1.1);
+}
+
+.patro2{
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform .5s;
+}
+.patro2:hover{
+    transform: scale(1.1);
+}
+
+.patro3{
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform .5s;
+}
+.patro3:hover{
+    transform: scale(1.1);
+}
+
+.patro4{
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform .5s;
+}
+.patro4:hover{
+    transform: scale(1.1);
+}
+
+.Nosotros{
+    margin: auto;
+    padding: 60px;
+    margin: 10px;
+}
+
+.coaches img{
+    display:flex;
+    width: 500px;
+    margin: auto;
+    float: left;
+   padding: 60px 100px 100px;
+}
+
+.Nosotros h3{
+    font-size: 30px;
+    text-align: center;
+    padding: 60px 200px 20px;
+    color: #F2F3F4;
+}
+
+.Nosotros p{
+    text-align: center;
+    padding: 60px 200px 20px;
+    font-size: 20px;
+    color:#BFC9CA;
+}
+
+.positionB{
+    text-align: center;
+    padding: 60px 200px 20px;
+    margin: auto;
+}
+
+.ButtonB{
+    background-color: transparent;
+    border: 2px solid #8E44AD;
+    padding: 1rem 1.5rem;
+    border-radius: .50rem;
+}
+
+.ButtonB:hover{
+    background: #8E44AD;
+    border: 2px solid #8E44AD;
+}
+
+.Button2{
+    background-color: transparent;
+    border: 2px solid #8E44AD;
+    padding: 2rem 1.5rem;
+    border-radius: .50rem;
+}
+
+.Button2:hover{
+    background: #8E44AD;
+    border: 2px solid #8E44AD;
+}
+
+
+
